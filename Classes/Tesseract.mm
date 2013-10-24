@@ -78,7 +78,7 @@ namespace tesseract {
             _setOnlyNonDebugParams = false;
         }
         
-        [self copyDataToDocumentsDirectory];
+        //[self copyDataToDocumentsDirectory];
         _tesseract = new tesseract::TessBaseAPI();
         
         BOOL success = [self initEngine];
